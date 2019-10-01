@@ -1,17 +1,14 @@
 *{
 	box-sizing: border-box;
-}
-
-body {
 	margin: 0;
 	padding: 0;
-	height: 50vh;
-	background-color: #fff;
 	font-family: Arial, Helvetica, sans-serif;
-	color: white;
 }
 
-main {
+
+
+.main {
+	height: 50vh;
 	background-color: #1a6382;
 	width: 20em;
 	height: 20em;
@@ -21,7 +18,7 @@ main {
 	border-radius: 0.5em;
 }
 
-#chatlog {
+.chatlog {
 	width: 90%;
 	height: 6em;
 	background-color: #fff;
@@ -30,7 +27,7 @@ main {
 	padding-top: 7px;
 }
 
-#botAsk {
+.botAsk {
 	width: 90%;
 	height: 5em;
 	background-color: #daeaf1;
@@ -49,7 +46,7 @@ main {
 	justify-content: center;
 }
 
-input {
+.inp {
 	width: 69%;
 	height: 3em;
 	background-color: #fff;
@@ -60,7 +57,7 @@ input {
 	padding-left: 7px;
 }
 
-button{
+.btn-send{
 	height: 3.35em;
 	padding: 0.9em;
 	background-color: #41836f;
